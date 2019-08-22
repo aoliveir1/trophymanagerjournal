@@ -112,3 +112,32 @@ JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.mi
 JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval line 1 > eval, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
 JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval line 1 > eval, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
 * Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Exiting due to channel error.
+Crash Annotation GraphicsCriticalError: |[C0][GFX1-]: Receive IPC close with reason=AbnormalShutdown (t=2029.27) 
+###!!! [Child][MessageChannel] Error: (msgtype=0x240016,name=PCameras::Msg_AllDone) Channel error: cannot send/recv
+
+Crash Annotation GraphicsCriticalError: |[C0][GFX1-]: Receive IPC close with reason=AbnormalShutdown (t=2029.15) [GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1566500668659	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.GhB0E9q45YJD"
+1566500669103	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566500669103	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566500669103	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566500669103	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566500671384	Marionette	INFO	Listening on port 35765
+1566500671470	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://trophymanager.com/js/fb.js?v=1.049.1, line 120: TypeError: document.getElementById(...) is null
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://s0.2mdn.net/ads/richmedia/studio/pv2/61000301/20190731031808262/index.html?e=69&leftOffset=0&topOffset=0&c=p9lTjc14rQ&t=1&renderingType=2, line 35: ReferenceError: invalid assignment left-hand side
+JavaScript error: https://s0.2mdn.net/ads/richmedia/studio/pv2/61000301/20190731031808262/index.html?e=69&leftOffset=0&topOffset=0&c=6QE8MHsAMA&t=1&renderingType=2, line 35: ReferenceError: invalid assignment left-hand side
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x240016,name=PCameras::Msg_AllDone) Channel error: cannot send/recv
+
+Exiting due to channel error.
+Exiting due to channel error.

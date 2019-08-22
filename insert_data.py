@@ -12,7 +12,7 @@ tables = cursor.execute("SELECT name FROM sqlite_master WHERE type='table';")
 """Initialize the browser"""
 user_agent = config('USER_AGENT')
 executable_path = config('EXECUTABLE_PATH')
-browser = Browser(headless=True,
+browser = Browser(#headless=True,
      executable_path=executable_path, user_agent=user_agent)
 
 url_base = config('URL_BASE')
@@ -41,12 +41,10 @@ for table in tables.fetchall():
     for link in result.fetchall():
         if link[0] == 1:
             a = get_a(link[1])
-            print(a)
-            if a < 1:
-                update = """UPDATE {}
-    SET attendance = {}
-    WHERE link = '{}'""".format(table[0], a, link[1])
-                cursor.execute(update)
-conn.commit()
+            update = """UPDATE {}
+SET attendance = {}
+WHERE link = '{}'""".format(table[0], a, link[1])
+            cursor.execute(update)
+            conn.commit()
 conn.close()
 browser.quit()
