@@ -3,7 +3,8 @@ Colect the attendance of all matches and update table"""
 
 import sqlite3
 from decouple import config
-from splinter import Browser
+from selenium.common.exceptions import NoSuchWindowException
+from splinter import Browser, exceptions
 
 conn = sqlite3.connect('tmjournal_season60.db')
 cursor = conn.cursor()
@@ -23,17 +24,21 @@ browser.fill('password', config('PASSWORD'))
 browser.find_by_xpath('//*[@id="login_button"]').first.click()
 
 def get_a(link):
-    url_match = url_base + link
-    browser.visit(url_match)
+    try:
+        url_match = url_base + link
+        browser.visit(url_match)
 
-    while browser.is_element_not_present_by_xpath('/html/body/div[8]/div[1]/div[3]/div/div[1]/div[4]/div'):
-        pass
+        while browser.is_element_not_present_by_xpath('/html/body/div[8]/div[1]/div[3]/div/div[1]/div[4]/div'):
+            pass
 
-    browser.find_by_xpath('/html/body/div[8]/div[1]/div[3]/div/div[1]/div[4]/div').first.click()
-    attendance = browser.find_by_xpath('/html/body/div[8]/div[2]/div/div[10]/div/ul[2]/li[4]/span[2]').first
-    attendance = attendance.text.strip()
-    attendance = attendance.replace(',', '')
-    return int(attendance)
+        browser.find_by_xpath('/html/body/div[8]/div[1]/div[3]/div/div[1]/div[4]/div').first.click()
+        attendance = browser.find_by_xpath('/html/body/div[8]/div[2]/div/div[10]/div/ul[2]/li[4]/span[2]').first
+        attendance = attendance.text.strip()
+        attendance = attendance.replace(',', '')
+        return int(attendance)
+    except NoSuchWindowException as e:
+        return 0
+
 
 for table in tables.fetchall():
     query = """SELECT * FROM {};""".format(table[0])
@@ -45,6 +50,7 @@ for table in tables.fetchall():
 SET attendance = {}
 WHERE link = '{}'""".format(table[0], a, link[1])
             cursor.execute(update)
-            conn.commit()
+
+conn.commit()
 conn.close()
 browser.quit()
