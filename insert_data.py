@@ -4,23 +4,20 @@ Colect the attendance of all matches and update table"""
 import sqlite3
 from decouple import config
 from selenium.common.exceptions import NoSuchWindowException, WebDriverException
-from splinter import Browser, exceptions
+
+from utils import create_brower, sign_in
 
 conn = sqlite3.connect('tmjournal_season60.db')
 cursor = conn.cursor()
 tables = cursor.execute("SELECT name FROM sqlite_master WHERE type='table';")
 
-"""Initialize the browser"""
-user_agent = config('USER_AGENT')
-executable_path = config('EXECUTABLE_PATH')
-browser = Browser(headless=True, executable_path=executable_path, user_agent=user_agent)
-
 url_base = config('URL_BASE')
 
-browser.visit(url_base)
-browser.fill('email', config('EMAIL'))
-browser.fill('password', config('PASSWORD'))
-browser.find_by_xpath('//*[@id="login_button"]').first.click()
+"""Initialize the browser"""
+browser = create_brower()
+
+"""Login"""
+sign_in(browser, url_base)
 
 def get_a(link):
     try:
