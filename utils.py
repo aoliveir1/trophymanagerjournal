@@ -1,4 +1,3 @@
-"""Initialize the browser"""
 from decouple import config
 from splinter import Browser
 

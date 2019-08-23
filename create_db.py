@@ -22,10 +22,6 @@ sign_in(browser, url_base)
 
 browser.visit(url_ranking)
 
-"""Wait page load"""
-while browser.is_element_not_present_by_xpath('/html/body/div[8]/div[2]/div/div[2]/div[3]/div/div[1]/div'):
-    pass
-
 """Start scrape"""
 soup = BeautifulSoup(browser.html, 'html.parser')
 table = soup.find('table')
@@ -37,37 +33,36 @@ season = season.text.lower().replace(' ', '')
 conn = sqlite3.connect('tmjournal_' + season + '.db')
 cursor = conn.cursor()
 
-for i, td in enumerate(tr):
-    if i > 0:
-        """Format fixtures page link"""
-        league = str(td.a['href']).replace('national-teams', 'league')
-        league = league + '/1/1'
-        fixtures = '/fixtures' + league
-        browser.visit(url_base + fixtures)
-        soup = BeautifulSoup(browser.html, 'html.parser')
-        soup = soup.findAll('a', {'class': 'match_link'})
+for td in tr[1:]:
+    """Format fixtures page link"""
+    league = str(td.a['href']).replace('national-teams', 'league')
+    league = league + '/1/1'
+    fixtures = '/fixtures' + league
+    browser.visit(url_base + fixtures)
+    soup = BeautifulSoup(browser.html, 'html.parser')
+    soup = soup.findAll('a', {'class': 'match_link'})
 
-        """Create Table"""
-        table_name = td.a.text.lower().replace(' ', '_').replace('-', '_').replace('\'',   '_').replace('&', '_')
-        cursor.execute("""CREATE TABLE {} (
-        round INTEGER NOT NULL, 
-        link TEXT NOT NULL,
-        stadium TEXT, 
-        home TEXT, 
-        away TEXT , 
-        attendance INTEGER,
-        scoreboard TEXT);""".format(table_name))
+    """Create Table"""
+    table_name = td.a.text.lower().replace(' ', '_').replace('-', '_').replace('\'',   '_').replace('&', '_')
+    cursor.execute("""CREATE TABLE {} (
+    round INTEGER NOT NULL, 
+    link TEXT NOT NULL,
+    stadium TEXT, 
+    home TEXT, 
+    away TEXT , 
+    attendance INTEGER,
+    scoreboard TEXT);""".format(table_name))
 
-        """Insert data"""
-        turn = 1
-        for j, match in enumerate(soup, start=1):
-            link = match['href']
-            cursor.execute("""
-            INSERT INTO {} (round, link) 
-            VALUES ({}, '{}', 0)
-            """.format(table_name, turn, link))
-            if j % 9 == 0:
-                turn += 1
+    """Insert data"""
+    turn = 1
+    for i, match in enumerate(soup, start=1):
+        link = match['href']
+        cursor.execute("""
+        INSERT INTO {} (round, link) 
+        VALUES ({}, '{}')
+        """.format(table_name, turn, link))
+        if i % 9 == 0:
+            turn += 1
 
 """Commit and Close"""
 conn.commit()
