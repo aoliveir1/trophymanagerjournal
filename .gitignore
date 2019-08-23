@@ -1,3 +1,4 @@
-.bkp
+*.bkp
+*.db
 .env
 geckodriver.log
