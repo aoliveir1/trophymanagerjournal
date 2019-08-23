@@ -8,6 +8,7 @@ import sqlite3
 
 from decouple import config
 from bs4 import BeautifulSoup
+from selenium.common.exceptions import WebDriverException, NoSuchWindowException
 
 from utils import create_brower, sign_in
 
@@ -34,35 +35,39 @@ conn = sqlite3.connect('tmjournal_' + season + '.db')
 cursor = conn.cursor()
 
 for td in tr[1:]:
-    """Format fixtures page link"""
-    league = str(td.a['href']).replace('national-teams', 'league')
-    league = league + '/1/1'
-    fixtures = '/fixtures' + league
-    browser.visit(url_base + fixtures)
-    soup = BeautifulSoup(browser.html, 'html.parser')
-    soup = soup.findAll('a', {'class': 'match_link'})
+    try:
+        """Format fixtures page link"""
+        league = str(td.a['href']).replace('national-teams', 'league')
+        league = league + '/1/1'
+        fixtures = '/fixtures' + league
+        browser.visit(url_base + fixtures)
+        soup = BeautifulSoup(browser.html, 'html.parser')
+        soup = soup.findAll('a', {'class': 'match_link'})
 
-    """Create Table"""
-    table_name = td.a.text.lower().replace(' ', '_').replace('-', '_').replace('\'',   '_').replace('&', '_')
-    cursor.execute("""CREATE TABLE {} (
-    round INTEGER NOT NULL, 
-    link TEXT NOT NULL,
-    stadium TEXT, 
-    home TEXT, 
-    away TEXT , 
-    attendance INTEGER,
-    scoreboard TEXT);""".format(table_name))
+        """Create Table"""
+        table_name = td.a.text.lower().replace(' ', '_').replace('-', '_').replace('\'',   '_').replace('&', '_')
+        print('Create table: ' + table_name)
+        cursor.execute("""CREATE TABLE {} (
+        round INTEGER NOT NULL, 
+        link TEXT NOT NULL,
+        stadium TEXT, 
+        home TEXT, 
+        away TEXT , 
+        attendance INTEGER,
+        scoreboard TEXT);""".format(table_name))
 
-    """Insert data"""
-    turn = 1
-    for i, match in enumerate(soup, start=1):
-        link = match['href']
-        cursor.execute("""
-        INSERT INTO {} (round, link) 
-        VALUES ({}, '{}')
-        """.format(table_name, turn, link))
-        if i % 9 == 0:
-            turn += 1
+        """Insert data"""
+        turn = 1
+        for i, match in enumerate(soup, start=1):
+            link = match['href']
+            cursor.execute("""
+            INSERT INTO {} (round, link) 
+            VALUES ({}, '{}')
+            """.format(table_name, turn, link))
+            if i % 9 == 0:
+                turn += 1
+    except (WebDriverException, NoSuchWindowException) as e:
+        print(e)
 
 """Commit and Close"""
 conn.commit()

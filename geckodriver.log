@@ -876,3 +876,9 @@ JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.mi
 [Child 23934, Chrome_ChildThread] WARNING: pipe error (31): Connection reset by peer: file /builddir/build/BUILD/firefox-68.0.2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
 Exiting due to channel error.
 Exiting due to channel error.
+1566585851631	Marionette	INFO	Stopped listening on port 45023
+[Child 22946, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builddir/build/BUILD/firefox-68.0.2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+[Child 22946, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builddir/build/BUILD/firefox-68.0.2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+[Child 22946, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builddir/build/BUILD/firefox-68.0.2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+[Child 22946, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /builddir/build/BUILD/firefox-68.0.2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+1566585852477	Marionette	INFO	Stopped listening on port 42973
