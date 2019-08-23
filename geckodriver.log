@@ -882,3 +882,116 @@ Exiting due to channel error.
 [Child 22946, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builddir/build/BUILD/firefox-68.0.2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
 [Child 22946, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /builddir/build/BUILD/firefox-68.0.2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
 1566585852477	Marionette	INFO	Stopped listening on port 42973
+*** You are running in headless mode.
+1566586777271	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.j5sApP6pwKQR"
+*** You are running in headless mode.
+1566586777551	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566586777551	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566586777552	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566586777552	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566586778782	Marionette	INFO	Listening on port 38915
+1566586778885	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://trophymanager.com/js/fb.js?v=1.049.1, line 120: TypeError: document.getElementById(...) is null
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://trophymanager.com/js/fb.js?v=1.049.1, line 120: TypeError: document.getElementById(...) is null
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221561548844810%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+1566586816996	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.JLafXFE6p4ec"
+1566586817316	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566586817316	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566586817316	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566586817316	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566586818945	Marionette	INFO	Listening on port 37569
+1566586819007	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://trophymanager.com/js/fb.js?v=1.049.1, line 120: TypeError: document.getElementById(...) is null
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221561548844810%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript error: https://be.sponsorpay.com/assets/web_client.js, line 3: TypeError: i.match is not a function
+JavaScript error: https://be.sponsorpay.com/assets/web_client.js, line 3: TypeError: i.match is not a function
+JavaScript error: https://be.sponsorpay.com/assets/web_client.js, line 3: TypeError: i.match is not a function
+JavaScript error: https://be.sponsorpay.com/assets/web_client.js, line 3: TypeError: i.match is not a function
+JavaScript error: https://be.sponsorpay.com/assets/web_client.js, line 3: TypeError: i.match is not a function
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-35/html/container.html?n=1, line 8: SyntaxError: expected expression, got '%'
+JavaScript error: https://be.sponsorpay.com/assets/web_client.js, line 3: TypeError: i.match is not a function
+JavaScript error: https://be.sponsorpay.com/assets/web_client.js, line 3: TypeError: i.match is not a function
+JavaScript error: https://be.sponsorpay.com/assets/web_client.js, line 3: TypeError: i.match is not a function
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-35/html/container.html?n=1, line 8: SyntaxError: expected expression, got '%'
+JavaScript error: https://be.sponsorpay.com/assets/web_client.js, line 3: TypeError: i.match is not a function
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-35/html/container.html?n=1, line 8: SyntaxError: expected expression, got '%'
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-35/html/container.html?n=1, line 8: SyntaxError: expected expression, got '%'
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-35/html/container.html?n=1, line 8: SyntaxError: expected expression, got '%'
+JavaScript error: https://be.sponsorpay.com/assets/web_client.js, line 3: TypeError: i.match is not a function
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-35/html/container.html?n=1, line 8: SyntaxError: expected expression, got '%'
+JavaScript error: https://be.sponsorpay.com/assets/web_client.js, line 3: TypeError: i.match is not a function
+JavaScript error: https://be.sponsorpay.com/assets/web_client.js, line 3: TypeError: i.match is not a function
+JavaScript error: https://be.sponsorpay.com/assets/web_client.js, line 3: TypeError: i.match is not a function
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-35/html/container.html?n=1, line 8: SyntaxError: expected expression, got '%'
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-35/html/container.html?n=1, line 8: SyntaxError: expected expression, got '%'
+JavaScript error: https://be.sponsorpay.com/assets/web_client.js, line 3: TypeError: i.match is not a function
+JavaScript error: https://be.sponsorpay.com/assets/web_client.js, line 3: TypeError: i.match is not a function
+JavaScript error: https://be.sponsorpay.com/assets/web_client.js, line 3: TypeError: i.match is not a function
+JavaScript error: https://be.sponsorpay.com/assets/web_client.js, line 3: TypeError: i.match is not a function
+JavaScript error: https://be.sponsorpay.com/assets/web_client.js, line 3: TypeError: i.match is not a function
+JavaScript error: https://be.sponsorpay.com/assets/web_client.js, line 3: TypeError: i.match is not a function
+JavaScript error: https://be.sponsorpay.com/assets/web_client.js, line 3: TypeError: i.match is not a function
+JavaScript error: https://be.sponsorpay.com/assets/web_client.js, line 3: TypeError: i.match is not a function
+JavaScript error: https://be.sponsorpay.com/assets/web_client.js, line 3: TypeError: i.match is not a function
+JavaScript error: https://be.sponsorpay.com/assets/web_client.js, line 3: TypeError: i.match is not a function
+1566587210166	Marionette	INFO	Stopped listening on port 37569
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Child 25023, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builddir/build/BUILD/firefox-68.0.2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+[Child 25023, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builddir/build/BUILD/firefox-68.0.2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+[Child 25023, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builddir/build/BUILD/firefox-68.0.2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+[Child 25023, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builddir/build/BUILD/firefox-68.0.2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+[Child 25023, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builddir/build/BUILD/firefox-68.0.2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+[Child 25023, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builddir/build/BUILD/firefox-68.0.2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+[Child 25023, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builddir/build/BUILD/firefox-68.0.2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+[Child 25023, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builddir/build/BUILD/firefox-68.0.2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+[Child 25023, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builddir/build/BUILD/firefox-68.0.2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+[Child 25023, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builddir/build/BUILD/firefox-68.0.2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+[Child 25023, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builddir/build/BUILD/firefox-68.0.2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+[Child 25023, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builddir/build/BUILD/firefox-68.0.2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+[Child 25023, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builddir/build/BUILD/firefox-68.0.2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+[Child 25023, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builddir/build/BUILD/firefox-68.0.2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+[Child 25023, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builddir/build/BUILD/firefox-68.0.2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+[Child 25023, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builddir/build/BUILD/firefox-68.0.2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+[Child 25023, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builddir/build/BUILD/firefox-68.0.2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+[Child 25023, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builddir/build/BUILD/firefox-68.0.2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+[Child 25023, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builddir/build/BUILD/firefox-68.0.2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+[Child 25023, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builddir/build/BUILD/firefox-68.0.2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+[Child 25023, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builddir/build/BUILD/firefox-68.0.2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
