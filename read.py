@@ -10,15 +10,18 @@ all_fixtures = []
 for table in tables:
     # lendo os dados
     cursor.execute("""
-    SELECT attendance, round, link FROM {} WHERE round = 1;
+    SELECT * FROM {} WHERE round = 1;
     """.format(table[0]))
 
     for linha in cursor.fetchall():
         all_fixtures.append(linha)
 
-all_fixtures.sort(reverse=True)
+def sortFifth(val):
+    return val[5]
 
-all_fixtures = all_fixtures[:100]
+all_fixtures.sort(key=sortFifth, reverse=True)
+
+all_fixtures = all_fixtures[:10]
 
 for fixture in all_fixtures:
     print(fixture)

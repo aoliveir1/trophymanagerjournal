@@ -995,3 +995,313 @@ IPDL protocol error: Handler returned error code!
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1566588348094	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.rzDMF3deM11o"
+1566588348406	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566588348406	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566588348406	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566588348406	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566588350024	Marionette	INFO	Listening on port 44203
+1566588350102	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://trophymanager.com/js/fb.js?v=1.049.1, line 120: TypeError: document.getElementById(...) is null
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-35/html/container.html?n=1, line 8: SyntaxError: expected expression, got '%'
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221561548844810%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+1566588415410	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.1u8w2qLLexMs"
+1566588415731	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566588415731	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566588415731	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566588415731	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566588417365	Marionette	INFO	Listening on port 36993
+1566588417420	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://trophymanager.com/js/fb.js?v=1.049.1, line 120: TypeError: document.getElementById(...) is null
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221561548844810%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1566588456779	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+Exiting due to channel error.
+Crash Annotation GraphicsCriticalError: |[C0][GFX1-]: Receive IPC close with reason=AbnormalShutdown (t=89.2481) 
+###!!! [Child][MessageChannel] Error: (msgtype=0x240016,name=PCameras::Msg_AllDone) Channel error: cannot send/recv
+
+Exiting due to channel error.
+1566588547567	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.UDsjzC0wr8Gm"
+1566588547898	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566588547898	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566588547898	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566588547898	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566588549484	Marionette	INFO	Listening on port 35719
+1566588549576	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://trophymanager.com/js/fb.js?v=1.049.1, line 120: TypeError: document.getElementById(...) is null
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221561548844810%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-35/html/container.html?n=1, line 8: SyntaxError: expected expression, got '%'
+1566588635575	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1566588640608	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1566588817773	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.vxutvsr0WFLl"
+1566588818128	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566588818128	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566588818129	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566588818129	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566588819980	Marionette	INFO	Listening on port 35661
+1566588819993	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://trophymanager.com/js/fb.js?v=1.049.1, line 120: TypeError: document.getElementById(...) is null
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221561548844810%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1566588884546	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+JavaScript error: https://be.sponsorpay.com/assets/web_client.js, line 3: TypeError: i.match is not a function
+JavaScript error: https://be.sponsorpay.com/assets/web_client.js, line 3: TypeError: i.match is not a function
+JavaScript error: https://be.sponsorpay.com/assets/web_client.js, line 3: TypeError: i.match is not a function
+JavaScript error: https://be.sponsorpay.com/assets/web_client.js, line 3: TypeError: i.match is not a function
+JavaScript error: https://be.sponsorpay.com/assets/web_client.js, line 3: TypeError: i.match is not a function
+JavaScript error: https://be.sponsorpay.com/assets/web_client.js, line 3: TypeError: i.match is not a function
+JavaScript error: https://be.sponsorpay.com/assets/web_client.js, line 3: TypeError: i.match is not a function
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-35/html/container.html?n=1, line 8: SyntaxError: expected expression, got '%'
+Exiting due to channel error.
+[Child 27461, Chrome_ChildThread] WARNING: pipe error (30): Connection reset by peer: file /builddir/build/BUILD/firefox-68.0.2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x240016,name=PCameras::Msg_AllDone) Channel error: cannot send/recv
+
+Exiting due to channel error.
+1566589275779	Marionette	INFO	Stopped listening on port 44203
+console.warn: "Error while detaching the thread front: 'detach' request packet to 'server1.conn0.child1/context18' can't be sent as the connection is closed."
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1566589276519	Marionette	INFO	Stopped listening on port 35719
+*** You are running in headless mode.
+1566589877000	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.zVv1lHyCJixh"
+*** You are running in headless mode.
+1566589877325	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566589877325	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566589877325	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566589877325	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566589878654	Marionette	INFO	Listening on port 33809
+1566589878706	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://trophymanager.com/js/fb.js?v=1.049.1, line 120: TypeError: document.getElementById(...) is null
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221561548844810%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://be.sponsorpay.com/assets/web_client.js, line 3: TypeError: i.match is not a function
+JavaScript error: https://be.sponsorpay.com/assets/web_client.js, line 3: TypeError: i.match is not a function
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-35/html/container.html?n=1, line 8: SyntaxError: expected expression, got '%'
+JavaScript error: https://be.sponsorpay.com/assets/web_client.js, line 3: TypeError: i.match is not a function
+JavaScript error: https://be.sponsorpay.com/assets/web_client.js, line 3: TypeError: i.match is not a function
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106812888&zMoatG=ct=BR&st=&city=1606&dma=0&zp=&bw=4&zMoatDBM_CP=28079480&zMoatDBM_IO=8046382&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0h_LHXTrtF6oP7iQN_VPK3B&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106812888&zMoatG=ct=BR&st=&city=1606&dma=0&zp=&bw=4&zMoatDBM_CP=28079480&zMoatDBM_IO=8046382&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0h_LHXTrtF6oP7iQN_VPK3B&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106812888&zMoatG=ct=BR&st=&city=1606&dma=0&zp=&bw=4&zMoatDBM_CP=28079480&zMoatDBM_IO=8046382&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0h_LHXTrtF6oP7iQN_VPK3B&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106812888&zMoatG=ct=BR&st=&city=1606&dma=0&zp=&bw=4&zMoatDBM_CP=28079480&zMoatDBM_IO=8046382&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0h_LHXTrtF6oP7iQN_VPK3B&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval line 1 > eval, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval line 1 > eval, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval line 1 > eval, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval line 1 > eval, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://be.sponsorpay.com/assets/web_client.js, line 3: TypeError: i.match is not a function
+JavaScript error: https://be.sponsorpay.com/assets/web_client.js, line 3: TypeError: i.match is not a function
+JavaScript error: https://be.sponsorpay.com/assets/web_client.js, line 3: TypeError: i.match is not a function
+JavaScript error: https://be.sponsorpay.com/assets/web_client.js, line 3: TypeError: i.match is not a function
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x240016,name=PCameras::Msg_AllDone) Channel error: cannot send/recv
+
+Exiting due to channel error.
+Exiting due to channel error.
+1566590087568	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.AfgeoWQjZniZ"
+1566590087884	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566590087884	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566590087885	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566590087885	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566590089654	Marionette	INFO	Listening on port 39985
+1566590089684	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://trophymanager.com/js/fb.js?v=1.049.1, line 120: TypeError: document.getElementById(...) is null
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://be.sponsorpay.com/assets/web_client.js, line 3: TypeError: i.match is not a function
+JavaScript error: https://be.sponsorpay.com/assets/web_client.js, line 3: TypeError: i.match is not a function
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221561548844810%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x240016,name=PCameras::Msg_AllDone) Channel error: cannot send/recv
+
+Exiting due to channel error.
+Exiting due to channel error.
+*** You are running in headless mode.
+1566590210617	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.11nbSb6CCBkQ"
+*** You are running in headless mode.
+1566590210888	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566590210888	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566590210888	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566590210888	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566590212161	Marionette	INFO	Listening on port 37943
+1566590212226	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://trophymanager.com/js/fb.js?v=1.049.1, line 120: TypeError: document.getElementById(...) is null
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221561548844810%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://be.sponsorpay.com/assets/web_client.js, line 3: TypeError: i.match is not a function
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106838902&zMoatG=ct=BR&st=&city=1606&dma=0&zp=&bw=4&zMoatDBM_CP=20359994&zMoatDBM_IO=5862063&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0g2Jz7U8hMiI3jJL1dANJSl&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106838902&zMoatG=ct=BR&st=&city=1606&dma=0&zp=&bw=4&zMoatDBM_CP=20359994&zMoatDBM_IO=5862063&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0g2Jz7U8hMiI3jJL1dANJSl&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106838902&zMoatG=ct=BR&st=&city=1606&dma=0&zp=&bw=4&zMoatDBM_CP=20359994&zMoatDBM_IO=5862063&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0g2Jz7U8hMiI3jJL1dANJSl&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106838902&zMoatG=ct=BR&st=&city=1606&dma=0&zp=&bw=4&zMoatDBM_CP=20359994&zMoatDBM_IO=5862063&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0g2Jz7U8hMiI3jJL1dANJSl&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval line 1 > eval, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval line 1 > eval, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript error: https://be.sponsorpay.com/assets/web_client.js, line 3: TypeError: i.match is not a function
+JavaScript error: https://be.sponsorpay.com/assets/web_client.js, line 3: TypeError: i.match is not a function
+JavaScript error: https://be.sponsorpay.com/assets/web_client.js, line 3: TypeError: i.match is not a function
+JavaScript error: https://be.sponsorpay.com/assets/web_client.js, line 3: TypeError: i.match is not a function
+JavaScript error: https://be.sponsorpay.com/assets/web_client.js, line 3: TypeError: i.match is not a function
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-35/html/container.html?n=1, line 8: SyntaxError: expected expression, got '%'
+JavaScript error: https://be.sponsorpay.com/assets/web_client.js, line 3: TypeError: i.match is not a function
+JavaScript error: https://be.sponsorpay.com/assets/web_client.js, line 3: TypeError: i.match is not a function
+JavaScript error: https://be.sponsorpay.com/assets/web_client.js, line 3: TypeError: i.match is not a function
+Exiting due to channel error.
+Exiting due to channel error.
+[Child 29719, Chrome_ChildThread] WARNING: pipe error (28): Connection reset by peer: file /builddir/build/BUILD/firefox-68.0.2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Child 29719, Chrome_ChildThread] WARNING: pipe error (38): Connection reset by peer: file /builddir/build/BUILD/firefox-68.0.2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Child 29719, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /builddir/build/BUILD/firefox-68.0.2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+Exiting due to channel error.

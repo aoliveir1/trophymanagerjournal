@@ -33,25 +33,24 @@ def get_match_data(link):
         attendance = browser.find_by_xpath('/html/body/div[9]/div[2]/div/div[10]/div/ul[2]/li[4]/span[2]').first
         attendance = attendance.text.strip()
         attendance = attendance.replace(',', '')
-        attendance = int(attendance)
 
         """Get stadium name"""
         stadium = browser.find_by_xpath('/html/body/div[9]/div[2]/div/div[10]/div/ul[1]/li[1]').first
-        stadium = stadium.text.strip()
+        stadium = stadium.text.strip().replace('\'',   '_').replace('&', '_')
 
         """Get home team"""
         home = browser.find_by_xpath('/html/body/div[9]/div[1]/div[3]/div/div[2]/div[2]/a').first
-        home = home.text.strip()
+        home = home.text.strip().replace('\'',   '_').replace('&', '_')
 
         """Get away team"""
         away = browser.find_by_xpath('/html/body/div[9]/div[1]/div[3]/div/div[2]/div[4]/a').first
-        away = away.text.strip()
+        away = away.text.strip().replace('\'',   '_').replace('&', '_')
 
         """Get scoreboard"""
         scoreboard = browser.find_by_xpath('/html/body/div[9]/div[1]/div[3]/div/div[2]/div[3]')
         scoreboard = scoreboard.text.strip()
-        scoreboard = scoreboard.split('-')
-        scoreboard = [s.strip() for s in scoreboard]
+        # scoreboard = scoreboard.split('-')
+        # scoreboard = [s.strip() for s in scoreboard]
 
         return attendance, stadium, home, away, scoreboard
     except (WebDriverException, NoSuchWindowException) as e:
@@ -72,9 +71,8 @@ for table in tables.fetchall():
             update = """UPDATE {}
 SET attendance = {}, stadium = '{}', home = '{}', away = '{}', scoreboard = '{}'
 WHERE link = '{}'""".format(table[0], attendance, stadium, home, away, scoreboard, link[1])
-            input(update)
             cursor.execute(update)
+            conn.commit()
 
-conn.commit()
 conn.close()
 browser.quit()

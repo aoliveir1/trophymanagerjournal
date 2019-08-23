@@ -61,8 +61,8 @@ for td in tr[1:]:
         for i, match in enumerate(soup, start=1):
             link = match['href']
             cursor.execute("""
-            INSERT INTO {} (round, link) 
-            VALUES ({}, '{}')
+            INSERT INTO {} (round, link, attendance) 
+            VALUES ({}, '{}', 0)
             """.format(table_name, turn, link))
             if i % 9 == 0:
                 turn += 1
