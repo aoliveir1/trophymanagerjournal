@@ -4,8 +4,7 @@ from splinter import Browser
 def create_brower():
     user_agent = config('USER_AGENT')
     executable_path = config('EXECUTABLE_PATH')
-    browser = Browser(headless=True,
-     executable_path=executable_path, user_agent=user_agent)
+    browser = Browser(headless=True, executable_path=executable_path, user_agent=user_agent)
     return browser
 
 def sign_in(browser, url_base):
