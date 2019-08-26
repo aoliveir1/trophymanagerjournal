@@ -10,6 +10,7 @@ requests = "*"
 splinter = "*"
 beautifulsoup4 = "*"
 python-decouple = "*"
+unidecode = "*"
 
 [requires]
 python_version = "3.7"

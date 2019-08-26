@@ -1,5 +1,4 @@
 *.bkp
-*.db
 .env
 geckodriver.log
 temp.py

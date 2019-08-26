@@ -34,6 +34,7 @@ season = season.text.lower().replace(' ', '')
 conn = sqlite3.connect('tmjournal_' + season + '.db')
 cursor = conn.cursor()
 
+print('creating tables...')
 for td in tr[1:]:
     try:
         """Format fixtures page link"""
@@ -44,32 +45,43 @@ for td in tr[1:]:
         soup = BeautifulSoup(browser.html, 'html.parser')
         soup = soup.findAll('a', {'class': 'match_link'})
 
+        while browser.is_element_not_present_by_xpath('/html/body/div[9]/div[2]/div/div[2]/div[2]/span[2]'):
+            browser.wait_time(1)
+
+        league_name = browser.find_by_xpath('/html/body/div[9]/div[2]/div/div[2]/div[2]/span[2]').first
+        league_name = league_name.text.strip()
+
         """Create Table"""
         table_name = td.a.text.lower().replace(' ', '_').replace('-', '_').replace('\'',   '_').replace('&', '_')
-        print('Create table: ' + table_name)
         cursor.execute("""CREATE TABLE {} (
         round INTEGER NOT NULL, 
-        link TEXT NOT NULL,
+        match_link TEXT NOT NULL,
+        attendance INTEGER NOT NULL,
+        tournment TEXT,
+        tournment_link TEXT,
         stadium TEXT, 
-        home TEXT, 
-        away TEXT , 
-        attendance INTEGER,
-        scoreboard TEXT);""".format(table_name))
+        home_team TEXT,
+        home_team_score INTEGER, 
+        home_team_link TEXT,
+        away_team TEXT,
+        away_team_score INTEGER,
+        away_team_link TEXT);""".format(table_name))
 
-        """Insert data"""
+        """Initialize"""
         turn = 1
         for i, match in enumerate(soup, start=1):
-            link = match['href']
+            match_link = match['href']
             cursor.execute("""
-            INSERT INTO {} (round, link, attendance) 
-            VALUES ({}, '{}', 0)
-            """.format(table_name, turn, link))
+            INSERT INTO {} (round, match_link, attendance, tournment, tournment_link) 
+            VALUES ({}, '{}', 0, '{}', '{}')
+            """.format(table_name, turn, match_link, league_name, league))
             if i % 9 == 0:
                 turn += 1
     except (WebDriverException, NoSuchWindowException) as e:
         print(e)
 
+print('done.')
 """Commit and Close"""
 conn.commit()
-browser.quit()
 conn.close()
+browser.quit()
