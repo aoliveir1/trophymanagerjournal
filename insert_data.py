@@ -21,9 +21,10 @@ browser = create_brower()
 sign_in(browser, url_base)
 
 def get_match_data(link):
-    url_match = url_base + link
-    browser.visit(url_match)
     try:
+        url_match = url_base + link
+        browser.visit(url_match)
+
         while browser.is_element_not_present_by_xpath('/html/body/div[9]/div[1]/div[3]/div/div[2]/div[3]'):
             pass
 
