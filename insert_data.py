@@ -64,7 +64,6 @@ def get_match_data(link):
 
         return attendance, stadium, home_team, home_team_score, home_team_link, away_team, away_team_score, away_team_link
     except (InvalidSessionIdException, NoSuchWindowException, WebDriverException) as e:
-        print(dir(e))
         print(e.msg)
         return None
 
