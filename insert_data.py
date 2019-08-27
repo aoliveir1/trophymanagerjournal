@@ -3,7 +3,7 @@ Colect the attendance of all matches and update table"""
 
 import sqlite3
 from decouple import config
-from selenium.common.exceptions import NoSuchWindowException, WebDriverException
+from selenium.common.exceptions import NoSuchWindowException, WebDriverException, InvalidSessionIdException
 import unidecode
 
 from utils import create_brower, sign_in
@@ -62,8 +62,9 @@ def get_match_data(link):
         away_team_link = away_team_link['href']
 
         return attendance, stadium, home_team, home_team_score, home_team_link, away_team, away_team_score, away_team_link
-    except (WebDriverException, NoSuchWindowException) as e:
-        print(e)
+    except (InvalidSessionIdException, NoSuchWindowException, WebDriverException) as e:
+        print(dir(e))
+        sign_in(browser, url_base)
         return None
 
 for table in tables.fetchall():
