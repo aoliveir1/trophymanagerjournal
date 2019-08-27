@@ -39,7 +39,7 @@ for td in tr[1:]:
     try:
         """Format fixtures page link"""
         league = str(td.a['href']).replace('national-teams', 'league')
-        league = league + '/1/1'
+        league = league + '1/1'
         fixtures = '/fixtures' + league
         browser.visit(url_base + fixtures)
         soup = BeautifulSoup(browser.html, 'html.parser')

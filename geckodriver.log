@@ -7692,3 +7692,714 @@ Exiting due to channel error.
 [Child 4943, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builddir/build/BUILD/firefox-68.0.2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
 [Child 4943, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /builddir/build/BUILD/firefox-68.0.2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
 Exiting due to channel error.
+*** You are running in headless mode.
+1566839705783	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.9Yen4q4rwL1x"
+*** You are running in headless mode.
+1566839706089	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566839706090	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566839706090	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566839706090	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566839707343	Marionette	INFO	Listening on port 46811
+1566839707389	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://trophymanager.com/js/fb.js?v=1.049.1, line 120: TypeError: document.getElementById(...) is null
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106835602&zMoatG=ct=BR&st=&city=1606&dma=0&zp=&bw=4&zMoatDBM_CP=20359994&zMoatDBM_IO=5862063&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0gtNv4QPR_tl_gm5FtoAODA&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106835602&zMoatG=ct=BR&st=&city=1606&dma=0&zp=&bw=4&zMoatDBM_CP=20359994&zMoatDBM_IO=5862063&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0gtNv4QPR_tl_gm5FtoAODA&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106835602&zMoatG=ct=BR&st=&city=1606&dma=0&zp=&bw=4&zMoatDBM_CP=20359994&zMoatDBM_IO=5862063&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0gtNv4QPR_tl_gm5FtoAODA&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106835602&zMoatG=ct=BR&st=&city=1606&dma=0&zp=&bw=4&zMoatDBM_CP=20359994&zMoatDBM_IO=5862063&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0gtNv4QPR_tl_gm5FtoAODA&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval line 1 > eval, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval line 1 > eval, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/unileverceltradisplay571624675842/moatad.js#moatClientLevel1=53df0223&moatClientLevel2=7bb28cb4&moatClientLevel3=d043836d&moatClientLevel4=f276327a&zMoatFT=Banner&zMoatBR=68f83ced&zMoatMA=03ea1eeb&zMoatAS=Sizmek&zMoatSizmekST=87917&zMoatSizmekCP=969147&zMoatSizmekPL=28195185&zMoatSizmekCR=58619616&zMoatSizmekAD=-&zMoatSizmekLI=, line 238: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/unileverceltradisplay571624675842/moatad.js#moatClientLevel1=53df0223&moatClientLevel2=7bb28cb4&moatClientLevel3=d043836d&moatClientLevel4=f276327a&zMoatFT=Banner&zMoatBR=68f83ced&zMoatMA=03ea1eeb&zMoatAS=Sizmek&zMoatSizmekST=87917&zMoatSizmekCP=969147&zMoatSizmekPL=28195185&zMoatSizmekCR=58619616&zMoatSizmekAD=-&zMoatSizmekLI=, line 238: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/unileverceltradisplay571624675842/moatad.js#moatClientLevel1=53df0223&moatClientLevel2=7bb28cb4&moatClientLevel3=d043836d&moatClientLevel4=f276327a&zMoatFT=Banner&zMoatBR=68f83ced&zMoatMA=03ea1eeb&zMoatAS=Sizmek&zMoatSizmekST=87917&zMoatSizmekCP=969147&zMoatSizmekPL=28195185&zMoatSizmekCR=58619616&zMoatSizmekAD=-&zMoatSizmekLI=, line 238: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/unileverceltradisplay571624675842/moatad.js#moatClientLevel1=53df0223&moatClientLevel2=7bb28cb4&moatClientLevel3=d043836d&moatClientLevel4=f276327a&zMoatFT=Banner&zMoatBR=68f83ced&zMoatMA=03ea1eeb&zMoatAS=Sizmek&zMoatSizmekST=87917&zMoatSizmekCP=969147&zMoatSizmekPL=28195185&zMoatSizmekCR=58619616&zMoatSizmekAD=-&zMoatSizmekLI=, line 238: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221561548844810%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+*** You are running in headless mode.
+1566839770089	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.W0MImH3itXrH"
+*** You are running in headless mode.
+1566839770412	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566839770412	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566839770412	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566839770412	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566839771857	Marionette	INFO	Listening on port 37221
+1566839772013	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://trophymanager.com/js/fb.js?v=1.049.1, line 120: TypeError: document.getElementById(...) is null
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106838902&zMoatG=ct=BR&st=&city=1606&dma=0&zp=&bw=4&zMoatDBM_CP=20359994&zMoatDBM_IO=5862063&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0h55A0e3rsecWh9sb0qb5ic&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106838902&zMoatG=ct=BR&st=&city=1606&dma=0&zp=&bw=4&zMoatDBM_CP=20359994&zMoatDBM_IO=5862063&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0h55A0e3rsecWh9sb0qb5ic&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106838902&zMoatG=ct=BR&st=&city=1606&dma=0&zp=&bw=4&zMoatDBM_CP=20359994&zMoatDBM_IO=5862063&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0h55A0e3rsecWh9sb0qb5ic&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106838902&zMoatG=ct=BR&st=&city=1606&dma=0&zp=&bw=4&zMoatDBM_CP=20359994&zMoatDBM_IO=5862063&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0h55A0e3rsecWh9sb0qb5ic&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221561548844810%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106835602&zMoatG=ct=BR&st=&city=1606&dma=0&zp=&bw=4&zMoatDBM_CP=20359994&zMoatDBM_IO=5862063&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0gLY3PyX3-ICUpEMX2_rD7c&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106835602&zMoatG=ct=BR&st=&city=1606&dma=0&zp=&bw=4&zMoatDBM_CP=20359994&zMoatDBM_IO=5862063&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0gLY3PyX3-ICUpEMX2_rD7c&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106835602&zMoatG=ct=BR&st=&city=1606&dma=0&zp=&bw=4&zMoatDBM_CP=20359994&zMoatDBM_IO=5862063&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0gLY3PyX3-ICUpEMX2_rD7c&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106835602&zMoatG=ct=BR&st=&city=1606&dma=0&zp=&bw=4&zMoatDBM_CP=20359994&zMoatDBM_IO=5862063&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0gLY3PyX3-ICUpEMX2_rD7c&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x240016,name=PCameras::Msg_AllDone) Channel error: cannot send/recv
+
+Crash Annotation GraphicsCriticalError: |[C0][GFX1-]: Receive IPC close with reason=AbnormalShutdown (t=112.116) [GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Sandbox: Unexpected EOF, op 0 flags 00 path /usr/share/locale/pt_BR.UTF-8/LC_MESSAGES/libc.mo
+[Child 5911, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /builddir/build/BUILD/firefox-68.0.2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+Exiting due to channel error.
+*** You are running in headless mode.
+1566844683271	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.bZlt1OlzOrao"
+*** You are running in headless mode.
+1566844683567	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566844683567	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566844683567	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566844683567	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566844684854	Marionette	INFO	Listening on port 43801
+1566844684876	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://trophymanager.com/js/fb.js?v=1.049.1, line 120: TypeError: document.getElementById(...) is null
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval line 1 > eval, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval line 1 > eval, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106835602&zMoatG=ct=BR&st=&city=1606&dma=0&zp=95045&bw=4&zMoatDBM_CP=25967544&zMoatDBM_IO=8046382&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0hhDqaEadDpxmi1o_gxZPZX&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106835602&zMoatG=ct=BR&st=&city=1606&dma=0&zp=95045&bw=4&zMoatDBM_CP=25967544&zMoatDBM_IO=8046382&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0hhDqaEadDpxmi1o_gxZPZX&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106835602&zMoatG=ct=BR&st=&city=1606&dma=0&zp=95045&bw=4&zMoatDBM_CP=25967544&zMoatDBM_IO=8046382&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0hhDqaEadDpxmi1o_gxZPZX&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106835602&zMoatG=ct=BR&st=&city=1606&dma=0&zp=95045&bw=4&zMoatDBM_CP=25967544&zMoatDBM_IO=8046382&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0hhDqaEadDpxmi1o_gxZPZX&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221561548844810%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+Exiting due to channel error.
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x240016,name=PCameras::Msg_AllDone) Channel error: cannot send/recv
+
+Exiting due to channel error.
+*** You are running in headless mode.
+1566845336318	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.LfpL1Xjd2WQR"
+*** You are running in headless mode.
+1566845336952	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566845336953	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566845336953	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566845336953	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566845338543	Marionette	INFO	Listening on port 36899
+1566845338637	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://trophymanager.com/js/fb.js?v=1.049.1, line 120: TypeError: document.getElementById(...) is null
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221561548844810%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript error: https://www.youtube.com/yts/jsbin/player_ias-vflQ3KR0i/en_US/base.js, line 1037: NS_ERROR_FAILURE: 
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval line 1 > eval, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval line 1 > eval, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106838902&zMoatG=ct=BR&st=&city=1606&dma=0&zp=95045&bw=4&zMoatDBM_CP=25967544&zMoatDBM_IO=8046382&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0jyvt6Vt-G1ZDdMcEOAcRZM&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106838902&zMoatG=ct=BR&st=&city=1606&dma=0&zp=95045&bw=4&zMoatDBM_CP=25967544&zMoatDBM_IO=8046382&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0jyvt6Vt-G1ZDdMcEOAcRZM&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106838902&zMoatG=ct=BR&st=&city=1606&dma=0&zp=95045&bw=4&zMoatDBM_CP=25967544&zMoatDBM_IO=8046382&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0jyvt6Vt-G1ZDdMcEOAcRZM&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106838902&zMoatG=ct=BR&st=&city=1606&dma=0&zp=95045&bw=4&zMoatDBM_CP=25967544&zMoatDBM_IO=8046382&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0jyvt6Vt-G1ZDdMcEOAcRZM&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/unileverceltradisplay571624675842/moatad.js#moatClientLevel1=53df0223&moatClientLevel2=7bb28cb4&moatClientLevel3=d043836d&moatClientLevel4=f276327a&zMoatFT=Banner&zMoatBR=68f83ced&zMoatMA=03ea1eeb&zMoatAS=Sizmek&zMoatSizmekST=87917&zMoatSizmekCP=969147&zMoatSizmekPL=28195185&zMoatSizmekCR=58619616&zMoatSizmekAD=-&zMoatSizmekLI=, line 238: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/unileverceltradisplay571624675842/moatad.js#moatClientLevel1=53df0223&moatClientLevel2=7bb28cb4&moatClientLevel3=d043836d&moatClientLevel4=f276327a&zMoatFT=Banner&zMoatBR=68f83ced&zMoatMA=03ea1eeb&zMoatAS=Sizmek&zMoatSizmekST=87917&zMoatSizmekCP=969147&zMoatSizmekPL=28195185&zMoatSizmekCR=58619616&zMoatSizmekAD=-&zMoatSizmekLI=, line 238: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/unileverceltradisplay571624675842/moatad.js#moatClientLevel1=53df0223&moatClientLevel2=7bb28cb4&moatClientLevel3=d043836d&moatClientLevel4=f276327a&zMoatFT=Banner&zMoatBR=68f83ced&zMoatMA=03ea1eeb&zMoatAS=Sizmek&zMoatSizmekST=87917&zMoatSizmekCP=969147&zMoatSizmekPL=28195185&zMoatSizmekCR=58619616&zMoatSizmekAD=-&zMoatSizmekLI=, line 238: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/unileverceltradisplay571624675842/moatad.js#moatClientLevel1=53df0223&moatClientLevel2=7bb28cb4&moatClientLevel3=d043836d&moatClientLevel4=f276327a&zMoatFT=Banner&zMoatBR=68f83ced&zMoatMA=03ea1eeb&zMoatAS=Sizmek&zMoatSizmekST=87917&zMoatSizmekCP=969147&zMoatSizmekPL=28195185&zMoatSizmekCR=58619616&zMoatSizmekAD=-&zMoatSizmekLI=, line 238: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x240016,name=PCameras::Msg_AllDone) Channel error: cannot send/recv
+
+Crash Annotation GraphicsCriticalError: |[C0][GFX1-]: Receive IPC close with reason=AbnormalShutdown (t=111.147) [GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 4388, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /builddir/build/BUILD/firefox-68.0.2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+Exiting due to channel error.
+Crash Annotation GraphicsCriticalError: |[C0][GFX1-]: Receive IPC close with reason=AbnormalShutdown (t=112.265) [GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 4272, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /builddir/build/BUILD/firefox-68.0.2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+Exiting due to channel error.
+*** You are running in headless mode.
+1566845450249	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.fybbxqqyMNa5"
+*** You are running in headless mode.
+1566845450856	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566845450857	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566845450857	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566845450857	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566845452532	Marionette	INFO	Listening on port 39253
+1566845452593	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://trophymanager.com/js/fb.js?v=1.049.1, line 120: TypeError: document.getElementById(...) is null
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221561548844810%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106838902&zMoatG=ct=BR&st=&city=1606&dma=0&zp=95045&bw=4&zMoatDBM_CP=25967544&zMoatDBM_IO=8046382&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0hvi22Qi5Ct3g3dk08SyvqJ&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106838902&zMoatG=ct=BR&st=&city=1606&dma=0&zp=95045&bw=4&zMoatDBM_CP=25967544&zMoatDBM_IO=8046382&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0hvi22Qi5Ct3g3dk08SyvqJ&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106838902&zMoatG=ct=BR&st=&city=1606&dma=0&zp=95045&bw=4&zMoatDBM_CP=25967544&zMoatDBM_IO=8046382&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0hvi22Qi5Ct3g3dk08SyvqJ&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106838902&zMoatG=ct=BR&st=&city=1606&dma=0&zp=95045&bw=4&zMoatDBM_CP=25967544&zMoatDBM_IO=8046382&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0hvi22Qi5Ct3g3dk08SyvqJ&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+*** You are running in headless mode.
+1566845540333	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.R8pNeR2J5MeW"
+*** You are running in headless mode.
+1566845540617	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566845540618	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566845540618	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566845540618	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566845541869	Marionette	INFO	Listening on port 33921
+1566845541938	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://trophymanager.com/js/fb.js?v=1.049.1, line 120: TypeError: document.getElementById(...) is null
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106838902&zMoatG=ct=BR&st=&city=1606&dma=0&zp=95045&bw=4&zMoatDBM_CP=25967544&zMoatDBM_IO=8046382&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0jpk9N_dspXFDnvEwbGlD14&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106838902&zMoatG=ct=BR&st=&city=1606&dma=0&zp=95045&bw=4&zMoatDBM_CP=25967544&zMoatDBM_IO=8046382&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0jpk9N_dspXFDnvEwbGlD14&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106838902&zMoatG=ct=BR&st=&city=1606&dma=0&zp=95045&bw=4&zMoatDBM_CP=25967544&zMoatDBM_IO=8046382&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0jpk9N_dspXFDnvEwbGlD14&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106838902&zMoatG=ct=BR&st=&city=1606&dma=0&zp=95045&bw=4&zMoatDBM_CP=25967544&zMoatDBM_IO=8046382&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0jpk9N_dspXFDnvEwbGlD14&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval line 1 > eval, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval line 1 > eval, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/unileverceltradisplay571624675842/moatad.js#moatClientLevel1=53df0223&moatClientLevel2=7bb28cb4&moatClientLevel3=d043836d&moatClientLevel4=f276327a&zMoatFT=Banner&zMoatBR=68f83ced&zMoatMA=03ea1eeb&zMoatAS=Sizmek&zMoatSizmekST=87917&zMoatSizmekCP=969147&zMoatSizmekPL=28195185&zMoatSizmekCR=58619616&zMoatSizmekAD=-&zMoatSizmekLI=, line 238: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/unileverceltradisplay571624675842/moatad.js#moatClientLevel1=53df0223&moatClientLevel2=7bb28cb4&moatClientLevel3=d043836d&moatClientLevel4=f276327a&zMoatFT=Banner&zMoatBR=68f83ced&zMoatMA=03ea1eeb&zMoatAS=Sizmek&zMoatSizmekST=87917&zMoatSizmekCP=969147&zMoatSizmekPL=28195185&zMoatSizmekCR=58619616&zMoatSizmekAD=-&zMoatSizmekLI=, line 238: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/unileverceltradisplay571624675842/moatad.js#moatClientLevel1=53df0223&moatClientLevel2=7bb28cb4&moatClientLevel3=d043836d&moatClientLevel4=f276327a&zMoatFT=Banner&zMoatBR=68f83ced&zMoatMA=03ea1eeb&zMoatAS=Sizmek&zMoatSizmekST=87917&zMoatSizmekCP=969147&zMoatSizmekPL=28195185&zMoatSizmekCR=58619616&zMoatSizmekAD=-&zMoatSizmekLI=, line 238: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/unileverceltradisplay571624675842/moatad.js#moatClientLevel1=53df0223&moatClientLevel2=7bb28cb4&moatClientLevel3=d043836d&moatClientLevel4=f276327a&zMoatFT=Banner&zMoatBR=68f83ced&zMoatMA=03ea1eeb&zMoatAS=Sizmek&zMoatSizmekST=87917&zMoatSizmekCP=969147&zMoatSizmekPL=28195185&zMoatSizmekCR=58619616&zMoatSizmekAD=-&zMoatSizmekLI=, line 238: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221561548844810%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x240016,name=PCameras::Msg_AllDone) Channel error: cannot send/recv
+
+Crash Annotation GraphicsCriticalError: |[C0][GFX1-]: Receive IPC close with reason=AbnormalShutdown (t=33.7632) [GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Crash Annotation GraphicsCriticalError: |[C0][GFX1-]: Receive IPC close with reason=AbnormalShutdown (t=34.8093) [GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 5012, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /builddir/build/BUILD/firefox-68.0.2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+Exiting due to channel error.
+*** You are running in headless mode.
+1566845577213	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.6urNQCiHb04Q"
+*** You are running in headless mode.
+1566845577581	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566845577581	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566845577581	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566845577581	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566845579189	Marionette	INFO	Listening on port 33095
+1566845579231	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://trophymanager.com/js/fb.js?v=1.049.1, line 120: TypeError: document.getElementById(...) is null
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221561548844810%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x240016,name=PCameras::Msg_AllDone) Channel error: cannot send/recv
+
+Crash Annotation GraphicsCriticalError: |[C0][GFX1-]: Receive IPC close with reason=AbnormalShutdown (t=34.6861) [GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 5410, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /builddir/build/BUILD/firefox-68.0.2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+Exiting due to channel error.
+Exiting due to channel error.
+*** You are running in headless mode.
+1566845614687	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.u7JDhhmzHg6y"
+*** You are running in headless mode.
+1566845615276	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566845615276	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566845615276	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566845615276	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566845616852	Marionette	INFO	Listening on port 44059
+1566845616915	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://trophymanager.com/js/fb.js?v=1.049.1, line 120: TypeError: document.getElementById(...) is null
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/unileverceltradisplay571624675842/moatad.js#moatClientLevel1=53df0223&moatClientLevel2=7bb28cb4&moatClientLevel3=d043836d&moatClientLevel4=f276327a&zMoatFT=Banner&zMoatBR=68f83ced&zMoatMA=03ea1eeb&zMoatAS=Sizmek&zMoatSizmekST=87917&zMoatSizmekCP=969147&zMoatSizmekPL=28195185&zMoatSizmekCR=58619616&zMoatSizmekAD=-&zMoatSizmekLI=, line 238: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/unileverceltradisplay571624675842/moatad.js#moatClientLevel1=53df0223&moatClientLevel2=7bb28cb4&moatClientLevel3=d043836d&moatClientLevel4=f276327a&zMoatFT=Banner&zMoatBR=68f83ced&zMoatMA=03ea1eeb&zMoatAS=Sizmek&zMoatSizmekST=87917&zMoatSizmekCP=969147&zMoatSizmekPL=28195185&zMoatSizmekCR=58619616&zMoatSizmekAD=-&zMoatSizmekLI=, line 238: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/unileverceltradisplay571624675842/moatad.js#moatClientLevel1=53df0223&moatClientLevel2=7bb28cb4&moatClientLevel3=d043836d&moatClientLevel4=f276327a&zMoatFT=Banner&zMoatBR=68f83ced&zMoatMA=03ea1eeb&zMoatAS=Sizmek&zMoatSizmekST=87917&zMoatSizmekCP=969147&zMoatSizmekPL=28195185&zMoatSizmekCR=58619616&zMoatSizmekAD=-&zMoatSizmekLI=, line 238: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/unileverceltradisplay571624675842/moatad.js#moatClientLevel1=53df0223&moatClientLevel2=7bb28cb4&moatClientLevel3=d043836d&moatClientLevel4=f276327a&zMoatFT=Banner&zMoatBR=68f83ced&zMoatMA=03ea1eeb&zMoatAS=Sizmek&zMoatSizmekST=87917&zMoatSizmekCP=969147&zMoatSizmekPL=28195185&zMoatSizmekCR=58619616&zMoatSizmekAD=-&zMoatSizmekLI=, line 238: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221561548844810%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+*** You are running in headless mode.
+1566845713728	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.kNNBMDJrQICL"
+*** You are running in headless mode.
+1566845714014	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566845714014	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566845714014	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566845714014	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566845715436	Marionette	INFO	Listening on port 33695
+1566845715553	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://trophymanager.com/js/fb.js?v=1.049.1, line 120: TypeError: document.getElementById(...) is null
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval line 1 > eval, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval line 1 > eval, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106835602&zMoatG=ct=BR&st=&city=1606&dma=0&zp=95045&bw=4&zMoatDBM_CP=25967544&zMoatDBM_IO=8046382&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0h5QAYE30RMa7SQThtvlBPn&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106835602&zMoatG=ct=BR&st=&city=1606&dma=0&zp=95045&bw=4&zMoatDBM_CP=25967544&zMoatDBM_IO=8046382&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0h5QAYE30RMa7SQThtvlBPn&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106835602&zMoatG=ct=BR&st=&city=1606&dma=0&zp=95045&bw=4&zMoatDBM_CP=25967544&zMoatDBM_IO=8046382&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0h5QAYE30RMa7SQThtvlBPn&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106835602&zMoatG=ct=BR&st=&city=1606&dma=0&zp=95045&bw=4&zMoatDBM_CP=25967544&zMoatDBM_IO=8046382&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0h5QAYE30RMa7SQThtvlBPn&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221561548844810%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x240016,name=PCameras::Msg_AllDone) Channel error: cannot send/recv
+
+Crash Annotation GraphicsCriticalError: |[C0][GFX1-]: Receive IPC close with reason=AbnormalShutdown (t=43.1415) [GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Crash Annotation GraphicsCriticalError: |[C0][GFX1-]: Receive IPC close with reason=AbnormalShutdown (t=44.2244) Sandbox: Unexpected EOF, op 0 flags 00 path /usr/share/locale/pt_BR.UTF-8/LC_MESSAGES/libc.mo
+[Child 6040, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /builddir/build/BUILD/firefox-68.0.2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+Exiting due to channel error.
+*** You are running in headless mode.
+1566845760249	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Uyz7KIKS4O7P"
+*** You are running in headless mode.
+1566845760584	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566845760584	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566845760584	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566845760585	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566845762067	Marionette	INFO	Listening on port 41595
+1566845762156	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://trophymanager.com/js/fb.js?v=1.049.1, line 120: TypeError: document.getElementById(...) is null
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106835602&zMoatG=ct=BR&st=&city=1606&dma=0&zp=95045&bw=4&zMoatDBM_CP=25967544&zMoatDBM_IO=8046382&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0grFF5nyQxupZwi3dUdUekZ&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106835602&zMoatG=ct=BR&st=&city=1606&dma=0&zp=95045&bw=4&zMoatDBM_CP=25967544&zMoatDBM_IO=8046382&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0grFF5nyQxupZwi3dUdUekZ&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106835602&zMoatG=ct=BR&st=&city=1606&dma=0&zp=95045&bw=4&zMoatDBM_CP=25967544&zMoatDBM_IO=8046382&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0grFF5nyQxupZwi3dUdUekZ&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106835602&zMoatG=ct=BR&st=&city=1606&dma=0&zp=95045&bw=4&zMoatDBM_CP=25967544&zMoatDBM_IO=8046382&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0grFF5nyQxupZwi3dUdUekZ&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval line 1 > eval, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval line 1 > eval, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/unileverceltradisplay571624675842/moatad.js#moatClientLevel1=53df0223&moatClientLevel2=7bb28cb4&moatClientLevel3=d043836d&moatClientLevel4=f276327a&zMoatFT=Banner&zMoatBR=68f83ced&zMoatMA=03ea1eeb&zMoatAS=Sizmek&zMoatSizmekST=87917&zMoatSizmekCP=969147&zMoatSizmekPL=28195185&zMoatSizmekCR=58619616&zMoatSizmekAD=-&zMoatSizmekLI=, line 238: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/unileverceltradisplay571624675842/moatad.js#moatClientLevel1=53df0223&moatClientLevel2=7bb28cb4&moatClientLevel3=d043836d&moatClientLevel4=f276327a&zMoatFT=Banner&zMoatBR=68f83ced&zMoatMA=03ea1eeb&zMoatAS=Sizmek&zMoatSizmekST=87917&zMoatSizmekCP=969147&zMoatSizmekPL=28195185&zMoatSizmekCR=58619616&zMoatSizmekAD=-&zMoatSizmekLI=, line 238: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/unileverceltradisplay571624675842/moatad.js#moatClientLevel1=53df0223&moatClientLevel2=7bb28cb4&moatClientLevel3=d043836d&moatClientLevel4=f276327a&zMoatFT=Banner&zMoatBR=68f83ced&zMoatMA=03ea1eeb&zMoatAS=Sizmek&zMoatSizmekST=87917&zMoatSizmekCP=969147&zMoatSizmekPL=28195185&zMoatSizmekCR=58619616&zMoatSizmekAD=-&zMoatSizmekLI=, line 238: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/unileverceltradisplay571624675842/moatad.js#moatClientLevel1=53df0223&moatClientLevel2=7bb28cb4&moatClientLevel3=d043836d&moatClientLevel4=f276327a&zMoatFT=Banner&zMoatBR=68f83ced&zMoatMA=03ea1eeb&zMoatAS=Sizmek&zMoatSizmekST=87917&zMoatSizmekCP=969147&zMoatSizmekPL=28195185&zMoatSizmekCR=58619616&zMoatSizmekAD=-&zMoatSizmekLI=, line 238: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221561548844810%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+*** You are running in headless mode.
+1566845802428	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.MCT9q7d0jcxY"
+*** You are running in headless mode.
+1566845802722	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566845802722	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566845802722	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566845802722	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566845804253	Marionette	INFO	Listening on port 35599
+1566845804343	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://trophymanager.com/js/fb.js?v=1.049.1, line 120: TypeError: document.getElementById(...) is null
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106835602&zMoatG=ct=BR&st=&city=1606&dma=0&zp=95045&bw=4&zMoatDBM_CP=25967544&zMoatDBM_IO=8046382&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0gs3rWNXLeZMfenEiv1IdeT&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106835602&zMoatG=ct=BR&st=&city=1606&dma=0&zp=95045&bw=4&zMoatDBM_CP=25967544&zMoatDBM_IO=8046382&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0gs3rWNXLeZMfenEiv1IdeT&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106835602&zMoatG=ct=BR&st=&city=1606&dma=0&zp=95045&bw=4&zMoatDBM_CP=25967544&zMoatDBM_IO=8046382&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0gs3rWNXLeZMfenEiv1IdeT&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106835602&zMoatG=ct=BR&st=&city=1606&dma=0&zp=95045&bw=4&zMoatDBM_CP=25967544&zMoatDBM_IO=8046382&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0gs3rWNXLeZMfenEiv1IdeT&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221561548844810%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x240016,name=PCameras::Msg_AllDone) Channel error: cannot send/recv
+
+Exiting due to channel error.
+Exiting due to channel error.
+*** You are running in headless mode.
+1566845861744	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.YA9EgbHC4QAK"
+*** You are running in headless mode.
+1566845862111	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566845862111	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566845862111	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566845862111	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566845863750	Marionette	INFO	Listening on port 39929
+1566845863805	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://trophymanager.com/js/fb.js?v=1.049.1, line 120: TypeError: document.getElementById(...) is null
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106835602&zMoatG=ct=BR&st=&city=1606&dma=0&zp=95045&bw=4&zMoatDBM_CP=25967544&zMoatDBM_IO=8046382&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0jrQfG5qqkF9IG24r0pkB8k&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106835602&zMoatG=ct=BR&st=&city=1606&dma=0&zp=95045&bw=4&zMoatDBM_CP=25967544&zMoatDBM_IO=8046382&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0jrQfG5qqkF9IG24r0pkB8k&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106835602&zMoatG=ct=BR&st=&city=1606&dma=0&zp=95045&bw=4&zMoatDBM_CP=25967544&zMoatDBM_IO=8046382&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0jrQfG5qqkF9IG24r0pkB8k&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106835602&zMoatG=ct=BR&st=&city=1606&dma=0&zp=95045&bw=4&zMoatDBM_CP=25967544&zMoatDBM_IO=8046382&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0jrQfG5qqkF9IG24r0pkB8k&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221561548844810%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+*** You are running in headless mode.
+1566845973235	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.e0c3IzugzRxf"
+*** You are running in headless mode.
+1566845973570	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566845973570	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566845973570	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566845973570	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566845975211	Marionette	INFO	Listening on port 44941
+1566845975247	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://trophymanager.com/js/fb.js?v=1.049.1, line 120: TypeError: document.getElementById(...) is null
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval line 1 > eval, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval line 1 > eval, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221561548844810%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+*** You are running in headless mode.
+1566846096306	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.xDMp04IQCYiu"
+*** You are running in headless mode.
+1566846096788	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566846096796	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566846096796	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566846096796	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566846098465	Marionette	INFO	Listening on port 43543
+1566846098545	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://trophymanager.com/js/fb.js?v=1.049.1, line 120: TypeError: document.getElementById(...) is null
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval line 1 > eval, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval line 1 > eval, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106838902&zMoatG=ct=BR&st=&city=1606&dma=0&zp=95045&bw=4&zMoatDBM_CP=25967544&zMoatDBM_IO=8046382&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0jZCKLdbPMmpaki_ukADGKt&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106838902&zMoatG=ct=BR&st=&city=1606&dma=0&zp=95045&bw=4&zMoatDBM_CP=25967544&zMoatDBM_IO=8046382&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0jZCKLdbPMmpaki_ukADGKt&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106838902&zMoatG=ct=BR&st=&city=1606&dma=0&zp=95045&bw=4&zMoatDBM_CP=25967544&zMoatDBM_IO=8046382&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0jZCKLdbPMmpaki_ukADGKt&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106838902&zMoatG=ct=BR&st=&city=1606&dma=0&zp=95045&bw=4&zMoatDBM_CP=25967544&zMoatDBM_IO=8046382&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0jZCKLdbPMmpaki_ukADGKt&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221561548844810%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x240016,name=PCameras::Msg_AllDone) Channel error: cannot send/recv
+
+Crash Annotation GraphicsCriticalError: |[C0][GFX1-]: Receive IPC close with reason=AbnormalShutdown (t=57.2205) [GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 7559, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builddir/build/BUILD/firefox-68.0.2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+Exiting due to channel error.
+Crash Annotation GraphicsCriticalError: |[C0][GFX1-]: Receive IPC close with reason=AbnormalShutdown (t=58.3411) [GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 7472, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /builddir/build/BUILD/firefox-68.0.2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+Exiting due to channel error.
+*** You are running in headless mode.
+1566846156317	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ULEOn6kiXQ4L"
+*** You are running in headless mode.
+1566846157193	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566846157193	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566846157193	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566846157193	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566846159053	Marionette	INFO	Listening on port 34299
+1566846159150	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://trophymanager.com/js/fb.js?v=1.049.1, line 120: TypeError: document.getElementById(...) is null
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221561548844810%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106835602&zMoatG=ct=BR&st=&city=1606&dma=0&zp=95045&bw=4&zMoatDBM_CP=25967544&zMoatDBM_IO=8046382&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0iZ77i_G3b_L0RyyHqaGMoX&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106835602&zMoatG=ct=BR&st=&city=1606&dma=0&zp=95045&bw=4&zMoatDBM_CP=25967544&zMoatDBM_IO=8046382&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0iZ77i_G3b_L0RyyHqaGMoX&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106835602&zMoatG=ct=BR&st=&city=1606&dma=0&zp=95045&bw=4&zMoatDBM_CP=25967544&zMoatDBM_IO=8046382&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0iZ77i_G3b_L0RyyHqaGMoX&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106835602&zMoatG=ct=BR&st=&city=1606&dma=0&zp=95045&bw=4&zMoatDBM_CP=25967544&zMoatDBM_IO=8046382&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0iZ77i_G3b_L0RyyHqaGMoX&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Crash Annotation GraphicsCriticalError: |[C0][GFX1-]: Receive IPC close with reason=AbnormalShutdown (t=43.8375) [GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 7875, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /builddir/build/BUILD/firefox-68.0.2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+Exiting due to channel error.
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x240016,name=PCameras::Msg_AllDone) Channel error: cannot send/recv
+
+Crash Annotation GraphicsCriticalError: |[C0][GFX1-]: Receive IPC close with reason=AbnormalShutdown (t=45.1128) [GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 7743, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /builddir/build/BUILD/firefox-68.0.2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+Exiting due to channel error.
+*** You are running in headless mode.
+1566846203622	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.I7qGR0pt6wHU"
+*** You are running in headless mode.
+1566846204206	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566846204206	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566846204206	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566846204206	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566846206146	Marionette	INFO	Listening on port 33299
+1566846206242	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://trophymanager.com/js/fb.js?v=1.049.1, line 120: TypeError: document.getElementById(...) is null
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221561548844810%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+*** You are running in headless mode.
+1566846247689	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.GX2xJngpATcx"
+*** You are running in headless mode.
+1566846248178	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566846248179	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566846248179	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566846248179	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566846249756	Marionette	INFO	Listening on port 36307
+1566846249810	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://trophymanager.com/js/fb.js?v=1.049.1, line 120: TypeError: document.getElementById(...) is null
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106838902&zMoatG=ct=BR&st=&city=1606&dma=0&zp=95045&bw=4&zMoatDBM_CP=25967544&zMoatDBM_IO=8046382&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0jKzAkbdI0d3KK49HbetOLq&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106838902&zMoatG=ct=BR&st=&city=1606&dma=0&zp=95045&bw=4&zMoatDBM_CP=25967544&zMoatDBM_IO=8046382&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0jKzAkbdI0d3KK49HbetOLq&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106838902&zMoatG=ct=BR&st=&city=1606&dma=0&zp=95045&bw=4&zMoatDBM_CP=25967544&zMoatDBM_IO=8046382&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0jKzAkbdI0d3KK49HbetOLq&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106838902&zMoatG=ct=BR&st=&city=1606&dma=0&zp=95045&bw=4&zMoatDBM_CP=25967544&zMoatDBM_IO=8046382&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0jKzAkbdI0d3KK49HbetOLq&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221561548844810%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x240016,name=PCameras::Msg_AllDone) Channel error: cannot send/recv
+
+Crash Annotation GraphicsCriticalError: |[C0][GFX1-]: Receive IPC close with reason=AbnormalShutdown (t=61.7494) Exiting due to channel error.
+Exiting due to channel error.
+*** You are running in headless mode.
+1566846314081	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Z7d3VE4zDFL1"
+*** You are running in headless mode.
+1566846314515	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566846314515	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566846314515	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566846314515	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566846316313	Marionette	INFO	Listening on port 35373
+1566846316396	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://trophymanager.com/js/fb.js?v=1.049.1, line 120: TypeError: document.getElementById(...) is null
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval line 1 > eval, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval line 1 > eval, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106835602&zMoatG=ct=BR&st=&city=1606&dma=0&zp=95045&bw=4&zMoatDBM_CP=25967544&zMoatDBM_IO=8046382&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0jSpgkt16uGDo-COyCTkfaz&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106835602&zMoatG=ct=BR&st=&city=1606&dma=0&zp=95045&bw=4&zMoatDBM_CP=25967544&zMoatDBM_IO=8046382&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0jSpgkt16uGDo-COyCTkfaz&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106835602&zMoatG=ct=BR&st=&city=1606&dma=0&zp=95045&bw=4&zMoatDBM_CP=25967544&zMoatDBM_IO=8046382&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0jSpgkt16uGDo-COyCTkfaz&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106835602&zMoatG=ct=BR&st=&city=1606&dma=0&zp=95045&bw=4&zMoatDBM_CP=25967544&zMoatDBM_IO=8046382&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0jSpgkt16uGDo-COyCTkfaz&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221561548844810%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106835602&zMoatG=ct=BR&st=&city=1606&dma=0&zp=95045&bw=4&zMoatDBM_CP=25967544&zMoatDBM_IO=8046382&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0jFe0xIs4NYiqj3Li72bljk&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106835602&zMoatG=ct=BR&st=&city=1606&dma=0&zp=95045&bw=4&zMoatDBM_CP=25967544&zMoatDBM_IO=8046382&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0jFe0xIs4NYiqj3Li72bljk&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106835602&zMoatG=ct=BR&st=&city=1606&dma=0&zp=95045&bw=4&zMoatDBM_CP=25967544&zMoatDBM_IO=8046382&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0jFe0xIs4NYiqj3Li72bljk&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106835602&zMoatG=ct=BR&st=&city=1606&dma=0&zp=95045&bw=4&zMoatDBM_CP=25967544&zMoatDBM_IO=8046382&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0jFe0xIs4NYiqj3Li72bljk&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://trophymanager.com/js/_combined.min.js?v=1.026.1, line 666: unreachable code after return statement
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106838902&zMoatG=ct=BR&st=&city=1606&dma=0&zp=95045&bw=4&zMoatDBM_CP=25967544&zMoatDBM_IO=8046382&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0hT_mredUadbUaUUzBjeqf-&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106838902&zMoatG=ct=BR&st=&city=1606&dma=0&zp=95045&bw=4&zMoatDBM_CP=25967544&zMoatDBM_IO=8046382&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0hT_mredUadbUaUUzBjeqf-&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106838902&zMoatG=ct=BR&st=&city=1606&dma=0&zp=95045&bw=4&zMoatDBM_CP=25967544&zMoatDBM_IO=8046382&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0hT_mredUadbUaUUzBjeqf-&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://z.moatads.com/uberdcm662893909720/moatad.js#moatClientLevel1=20479584&moatClientLevel2=4086543&moatClientLevel3=230571698&moatClientLevel4=106838902&zMoatG=ct=BR&st=&city=1606&dma=0&zp=95045&bw=4&zMoatDBM_CP=25967544&zMoatDBM_IO=8046382&zMoatDBM_CR=145635335&zMoatDBM_PUB=1&zMoatDBM_AUC=ABAjH0hT_mredUadbUaUUzBjeqf-&zMoatDBM_ST=3090431690&zMoatEXCH=1&zMoatADV=8075430, line 239: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval line 1 > eval, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval line 1 > eval, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval, line 1: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://pagead2.googlesyndication.com/bg/tXbbKGCSgiNzxd9KuUT2By_3fvNWV2h7dqV20WyVtNQ.js line 1 > Function line 3 > eval, line 1: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x240016,name=PCameras::Msg_AllDone) Channel error: cannot send/recv
+
+Crash Annotation GraphicsCriticalError: |[C0][GFX1-]: Receive IPC close with reason=AbnormalShutdown (t=54.4968) [GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 8758, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /builddir/build/BUILD/firefox-68.0.2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+Exiting due to channel error.
+Exiting due to channel error.

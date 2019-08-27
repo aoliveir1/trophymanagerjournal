@@ -64,7 +64,7 @@ def get_match_data(link):
         return attendance, stadium, home_team, home_team_score, home_team_link, away_team, away_team_score, away_team_link
     except (WebDriverException, NoSuchWindowException) as e:
         print(e)
-        return 0
+        return None
 
 for table in tables.fetchall():
     turn = 2
@@ -73,23 +73,24 @@ for table in tables.fetchall():
     for column in columns.fetchall():
         if column[0] == turn:
             match_data = get_match_data(column[1])
-            attendance = match_data[0]
-            stadium = match_data[1]
-            home_team = match_data[2]
-            home_team_score = match_data[3]
-            home_team_link = match_data[4]
-            away_team = match_data[5]
-            away_team_score = match_data[6]
-            away_team_link = match_data[7]
-            update = """UPDATE {}
-SET attendance = {}, stadium = "{}", home_team = "{}", home_team_score = {}, home_team_link = "{}",
-away_team = "{}", away_team_score = {}, away_team_link = "{}"
-WHERE match_link = '{}'""".format(table[0], attendance, stadium, home_team, home_team_score, home_team_link,
-                            away_team, away_team_score, away_team_link, column[1])
-            update = unidecode.unidecode(update)
-            print(update)
-            cursor.execute(update)
-            conn.commit()
-# conn.commit()
+            if match_data is not None:
+                attendance = match_data[0]
+                stadium = match_data[1]
+                home_team = match_data[2]
+                home_team_score = match_data[3]
+                home_team_link = match_data[4]
+                away_team = match_data[5]
+                away_team_score = match_data[6]
+                away_team_link = match_data[7]
+                update = """UPDATE {}
+    SET attendance = {}, stadium = "{}", home_team = "{}", home_team_score = {}, home_team_link = "{}",
+    away_team = "{}", away_team_score = {}, away_team_link = "{}"
+    WHERE match_link = '{}'""".format(table[0], attendance, stadium, home_team, home_team_score, home_team_link,
+                                away_team, away_team_score, away_team_link, column[1])
+                update = unidecode.unidecode(update)
+                print(update)
+                cursor.execute(update)
+                conn.commit()
+
 conn.close()
 browser.quit()

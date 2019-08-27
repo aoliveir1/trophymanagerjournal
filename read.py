@@ -21,14 +21,14 @@ while True:
         for linha in cursor.fetchall():
             all_fixtures.append(linha)
 
-    all_fixtures.sort(key=sortAttendance, reverse=True)
-    all_fixtures = all_fixtures[:5]
-    for fixture in all_fixtures:
-        print(fixture[0] + ' - ' + fixture[1].title())
-        print('Stadium: ' + fixture[3])
-        print('Attendance: ' + str(fixture[2]))
-        print(fixture[4] + ' [' + str(fixture[5]) + ' x ' + str(fixture[6]) + '] ' + fixture[7])
-        print()
+    # all_fixtures.sort(key=sortAttendance, reverse=True)
+    # all_fixtures = all_fixtures[:5]
+    # for fixture in all_fixtures:
+    #     print(fixture[0] + ' - ' + fixture[1].title())
+    #     print('Stadium: ' + fixture[3])
+    #     print('Attendance: ' + str(fixture[2]))
+    #     print(fixture[4] + ' [' + str(fixture[5]) + ' x ' + str(fixture[6]) + '] ' + fixture[7])
+    #     print()
 
     # all_fixtures.sort(key=lambda e: (e[6], e[3], e[4]), reverse=True)
     # all_fixtures = all_fixtures[:5]
