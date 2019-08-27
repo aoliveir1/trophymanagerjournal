@@ -5,6 +5,7 @@ import sqlite3
 from decouple import config
 from selenium.common.exceptions import NoSuchWindowException, WebDriverException, InvalidSessionIdException
 import unidecode
+import time
 
 from utils import create_brower, sign_in
 
@@ -24,6 +25,7 @@ def get_match_data(link):
     try:
         url_match = url_base + link
         browser.visit(url_match)
+        time.sleep(3)
 
         while browser.is_element_not_present_by_xpath('/html/body/div[9]/div[1]/div[3]/div/div[2]/div[3]'):
             pass
@@ -65,7 +67,6 @@ def get_match_data(link):
         return attendance, stadium, home_team, home_team_score, home_team_link, away_team, away_team_score, away_team_link
     except (InvalidSessionIdException, NoSuchWindowException, WebDriverException) as e:
         print(e.msg)
-        browser.quit()
         return None
 
 for table in tables.fetchall():
