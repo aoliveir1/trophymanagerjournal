@@ -65,6 +65,8 @@ def get_match_data(link):
     except (InvalidSessionIdException, NoSuchWindowException, WebDriverException) as e:
         print(dir(e))
         sign_in(browser, url_base)
+        url_match = url_base + link
+        browser.visit(url_match)
         return None
 
 for table in tables.fetchall():
@@ -83,10 +85,11 @@ for table in tables.fetchall():
                 away_team = match_data[5]
                 away_team_score = match_data[6]
                 away_team_link = match_data[7]
-                update = """UPDATE {}
-    SET attendance = {}, stadium = "{}", home_team = "{}", home_team_score = {}, home_team_link = "{}",
-    away_team = "{}", away_team_score = {}, away_team_link = "{}"
-    WHERE match_link = '{}'""".format(table[0], attendance, stadium, home_team, home_team_score, home_team_link,
+                update = """
+UPDATE {}
+SET attendance = {}, stadium = "{}", home_team = "{}", home_team_score = {}, home_team_link = "{}",
+away_team = "{}", away_team_score = {}, away_team_link = "{}"
+WHERE match_link = '{}'""".format(table[0], attendance, stadium, home_team, home_team_score, home_team_link,
                                 away_team, away_team_score, away_team_link, column[1])
                 update = unidecode.unidecode(update)
                 print(update)
