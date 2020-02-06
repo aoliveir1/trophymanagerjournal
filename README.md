@@ -1,4 +1,7 @@
 [tmjournal.tk](https://tmjournal.tk)
+
+[TrophyManager](http://trophymanager.com/?c=4322018)
+
 # Trophy Manager Journal
 
 ## How I collect data: *'the scripts'*
