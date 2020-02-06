@@ -1,7 +1,7 @@
 [tmjournal.tk](https://tmjournal.tk)
 # Trophy Manager Journal
 
-## Collect data: *'the scripts'*
+## How I collect data: *'the scripts'*
 
 ### Going through all the matches
 
