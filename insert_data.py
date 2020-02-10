@@ -1,4 +1,4 @@
-"""Colect matches data and update tables"""
+"""Collect matches data and update tables"""
 
 import time
 import sqlite3
@@ -16,6 +16,8 @@ cursor_players = conn_players.cursor()
 
 
 def get_table_list(index: int) -> list:
+    """Returns a list containing table names.
+    Index 0 for all tables. Index 1 to 14 for the tables contained in the list."""
     db_tables = cursor.execute("SELECT name FROM sqlite_master WHERE type='table';").fetchall()
     all_tables = [table[0] for table in db_tables]
 
@@ -82,6 +84,7 @@ def get_table_list(index: int) -> list:
 
 
 def update_matches_table(fixture_data: list) -> str:
+    """Formats a query."""
     table_name = fixture_data[0]
     attendance = fixture_data[1]
     stadium = fixture_data[2]
@@ -101,6 +104,7 @@ def update_matches_table(fixture_data: list) -> str:
 
 
 def create_players_table(table_name: str) -> str:
+    """Formats a query."""
     create_table = '''CREATE TABLE IF NOT EXISTS {} (player_name TEXT, player_age TEXT, player_wage FLOAT, 
     player_position TEXT, player_nation TEXT, player_link TEXT, player_si INTEGER, player_rating FLOAT, player_goals 
     INTEGER, turn INTEGER, turn_link TEXT, team TEXT, team_link TEXT)'''.format(table_name)
@@ -108,6 +112,7 @@ def create_players_table(table_name: str) -> str:
 
 
 def insert_players_data(players_data: list) -> str:
+    """Formats a query."""
     table = players_data[0]
     name = players_data[1]
     age = players_data[2]
@@ -128,14 +133,8 @@ def insert_players_data(players_data: list) -> str:
     return insert_players_data
 
 
-url_base = config('URL_BASE')
-"""Initialize the browser and log in"""
-browser = create_brower()
-browser.driver.maximize_window()
-sign_in(browser, url_base)
-
-
 def get_match_data(link):
+    """Receive the match link and scrape for the data."""
     # link = '/matches/148692932/'  #  Forfeit example
     # link = '/matches/148693198/'  #  April match
     try:
@@ -156,7 +155,7 @@ def get_match_data(link):
 
         """Get match data"""
         if browser.is_element_present_by_css('.go_to_report'):
-            """Click to see report"""
+            # Click to see report
             browser.find_by_css('.go_to_report').first.click()
 
             attendance = browser.find_by_css('.attendance').first
@@ -270,6 +269,12 @@ def get_match_data(link):
         print(e)
         return None
 
+
+url_base = config('URL_BASE')
+"""Initialize the browser and log in"""
+browser = create_brower()
+browser.driver.maximize_window()
+sign_in(browser, url_base)
 
 tables = get_table_list(0)
 tables_fails = []
