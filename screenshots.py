@@ -19,8 +19,9 @@ links = ['https://trophymanager.com/league/br/1/1/',
          'https://trophymanager.com/league/pt/2/3/',
          'https://trophymanager.com/league/pt/2/4/']
 
+path = '/full path to store images/'
+
 for link in links:
-    path = '/full path to store images/'
     img_name = link.replace('/', '')
     img_name = path + img_name[-4:] + '_{}.png'
     browser.visit(link)
