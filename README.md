@@ -10,7 +10,7 @@
 I extract game data basically through web scraping.<br />
 Before season start I collect all the links of all fixtures of the season.<br />
 Basically I store all data in two databases (well, my bad architecture).<br />
-I managed to separate in lists which countries have their games earlier and so I can run the collection as soon as the games are finishing.
+I managed to separate in lists which countries have their games earlier so I can run the collection as soon as the games are finishing.
 
 
 ## Automate screenshots:
