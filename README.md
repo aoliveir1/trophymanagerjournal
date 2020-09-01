@@ -3,11 +3,9 @@
 
 [TrophyManager.com](http://trophymanager.com/?c=4322018)
 
-## How I collect data: *'the scripts'*
+## How I collect data: **insert_data.py**
 
 ### Going through all the matches
-
-**insert_data.py**
 
 I extract game data basically through web scraping. 
 Before season start I collect all the links of all fixtures of the season. 
