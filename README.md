@@ -22,7 +22,7 @@ I managed to separate in lists which countries have their games earlier so I can
 In fact I need help in some points:
 
 1 - If is possible determine window size of a headless browser. I can't run a headless browser in full screen mode.<br />
-2 - Well, if I could take a screenshot of full page even without full screen mode setting the property full of method screenshot().<br />
+2 - Well, I don't mind the point 1 if I could take a screenshot of full page even without full screen mode setting the property *full* of method *screenshot()*.<br />
 Didn't work for me: *screenshot_path = browser.screenshot('absolute_path/your_screenshot.png', full=True)*<br />
 3 - Get the size and coordinates of a element easier than this: *table_location = table.\__dict__\['_element'].location*<br />
 Didn't work: *element.location* and *element.size*.
